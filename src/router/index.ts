@@ -7,7 +7,7 @@ Vue.use(VueRouter);
 
 const routes: Array<RouteConfig> = [
   {
-    path: "/bolita",
+    path: "/",
     name: "bolita",
     component: () => import("@/views/Principal.vue"),
     meta: {
