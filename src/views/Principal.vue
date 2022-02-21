@@ -19,11 +19,9 @@
                     label="Lista"
                   ></v-text-field>
                 </v-col>
-
                 <v-col cols="12" md="4">
                   <v-text-field v-model="dia" label="Dia"></v-text-field>
                 </v-col>
-
                 <v-radio-group v-model="tiempo" row>
                   <v-radio label="AM" value="AM"></v-radio>
                   <v-radio label="PM" value="PM"></v-radio>
